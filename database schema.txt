@@ -1,0 +1,131 @@
+     
+
+    HOSPITAL SCHEMA
+
+
+[
+    {
+        "_id": "5f6f3049136cb9e80c247861",
+        "hid": "h1",
+        "hname": "care"
+    },
+    {
+        "_id": "5f6f3049136cb9e80c247862",
+        "hid": "h2",
+        "hname": "apollo"
+    },
+    {
+        "_id": "5f73163554ce032c5cc5126e",
+        "hid": "h3",
+        "hname": "yashoda"
+    },
+    {
+        "_id": "5f733c8aacdd9e13b85618cc",
+        "hid": "h5",
+        "hname": "medicover"
+    },
+    {
+        "_id": "5f733d6a4b673cd3e118cbd2",
+        "hid": "h4",
+        "hname": "Gandhi"
+    }
+]
+
+
+
+
+     VENTILATOR SCHEMA 
+
+[
+    {
+        "_id": "5f6f31c6136cb9e80c247863",
+        "vid": "h1v1",
+        "hid": "h1",
+        "name": "care",
+        "status": "available"
+    },
+    {
+        "_id": "5f6f31c6136cb9e80c247864",
+        "vid": "h1v2",
+        "hid": "h1",
+        "name": "care",
+        "status": "unoccupied"
+    },
+    {
+        "_id": "5f6f31c6136cb9e80c247865",
+        "vid": "h2v1",
+        "hid": "h2",
+        "name": "apollo",
+        "status": "available"
+    },
+    {
+        "_id": "5f731cfbd706597989277967",
+        "vid": "h2v2",
+        "hid": "h2",
+        "name": "apollo",
+        "status": "occupied"
+    },
+    {
+        "_id": "5f731d27d706597989277969",
+        "vid": "h2v4",
+        "hid": "h2",
+        "name": "apollo",
+        "status": "unavailable"
+    },
+    {
+        "_id": "5f731d45d70659798927796a",
+        "vid": "h2v3",
+        "hid": "h2",
+        "name": "apollo",
+        "status": "unavailable"
+    },
+    {
+        "_id": "5f731e945e834653374b388a",
+        "vid": "h4v1",
+        "hid": "h4",
+        "name": "Gandhi",
+        "status": "occupied"
+    },
+    {
+        "_id": "5f731ea25e834653374b388b",
+        "vid": "h4v2",
+        "hid": "h4",
+        "name": "Gandhi",
+        "status": "unavailable"
+    },
+    {
+        "_id": "5f731eb55e834653374b388c",
+        "vid": "h4v3",
+        "hid": "h4",
+        "name": "Gandhi",
+        "status": "available"
+    },
+    {
+        "_id": "5f731ec25e834653374b388d",
+        "vid": "h4v4",
+        "hid": "h4",
+        "name": "Gandhi",
+        "status": "in-maintainance"
+    },
+    {
+        "_id": "5f733e474b673cd3e118cbd3",
+        "vid": "h3v1",
+        "hid": "h3",
+        "name": "yashoda",
+        "status": "unavailable"
+    },
+    {
+        "_id": "5f733e554b673cd3e118cbd4",
+        "vid": "h3v3",
+        "hid": "h3",
+        "name": "yashoda",
+        "status": "available"
+    },
+    {
+        "_id": "5f733e654b673cd3e118cbd5",
+        "vid": "h3v2",
+        "hid": "h3",
+        "name": "yashoda",
+        "status": "available"
+    }
+]
